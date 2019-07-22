@@ -19,6 +19,12 @@
     ```
     username@email.com, password123
     ```
+    - If you would like for multiple accounts to post the same ads simply add more login details on separate lines
+    ```
+    username@email.com, password123
+    person@email.com, livinglife
+    toronto@email.com, mapleleafs
+    ```
 
 2. Make sure each ad contains an Ad.txt and at least one image
 
