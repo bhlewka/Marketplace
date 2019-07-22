@@ -15,7 +15,7 @@
     Documents\MarketplaceProgram\ads\couch\...
     Documents\MarketplaceProgram\ads\chair\...
     ```
-2. login.txt should an email and a password on a single line, separated by a comma
+2. login.txt should an email and a password on a single line, separated by a comma followed by a space
     ```
     username@email.com, password123
     ```
