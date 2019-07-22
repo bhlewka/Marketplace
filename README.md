@@ -47,6 +47,7 @@
     
 ### Possible TODO's / Personal Notes
 
+- Allow for multiple accounts, so each ad can be posted to multiple accounts
 - ~~Speed up the program from waiting 2 seconds after every action to
 on page load~~
     - Using exclusive waits or something? Waiting for the last element to load
