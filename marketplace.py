@@ -34,13 +34,13 @@ def getCredentials():
 # Returns title, price, description
 def getAdInformation(directory):
 
-    title, price, description = open("ads\\"+directory+"\\Ad.txt").read().split("\n", 2)
+    title, price, description = open("ad/"+directory+"/Ad.txt").read().split("\n", 2)
     return title, price, description
 
 # This will return the absolute path to all images
 # Returns a list of absolute paths to images
 def getAdImagePaths(directory):
-    ads = os.getcwd() + "\\ads\\" + directory
+    ads = os.getcwd() + "/ads/" + directory
     files = os.listdir(ads)
 
     # We will go through this list and remove the hidden files as well as Ad.txt
@@ -49,13 +49,13 @@ def getAdImagePaths(directory):
     images = []
     for file in files:
         if file[0] != "." and file != "Ad.txt":
-            images.append(ads + "\\" + file)
+            images.append(ads + "/" + file)
     return images
 
 # This retrieves the directory name of each ad
 # Returns list of ad folder names
 def getAds():
-    ads = os.getcwd() + "\\ads\\"
+    ads = os.getcwd() + "/ads/"
     ads = os.listdir(ads)
     return ads
 
