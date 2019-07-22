@@ -15,10 +15,9 @@
     Documents\MarketplaceProgram\ads\couch\...
     Documents\MarketplaceProgram\ads\chair\...
     ```
-2. login.txt should have two lines, email and password
+2. login.txt should an email and a password on a single line, separated by a comma
     ```
-    username@email.com
-    password123
+    username@email.com, password123
     ```
 
 2. Make sure each ad contains an Ad.txt and at least one image
